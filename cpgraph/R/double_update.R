@@ -23,9 +23,9 @@
 #' p = 50; n = 225; t0 = 0.2
 #' params = gen_param(p = p, reg_param = TRUE)
 #' sig1 = params$pre_cov; sig2 = params$post_cov
-#' image(as.matrix(sig1));image(as.matrix(sig2))
+#' image(as.matrix(sig1)); image(as.matrix(sig2))
 #' #generate data
-#' x=gen.data(n = n, p = p, t0 = t0, sig1, sig2)$data
+#' x=gen_data(n = n, p = p, t0 = t0, sig1, sig2)$data
 #' params$jump_size
 #' params$normalized_jump
 #'
